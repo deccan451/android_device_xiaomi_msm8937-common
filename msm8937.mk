@@ -394,6 +394,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
+# Touch HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.xiaomi_8937
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
