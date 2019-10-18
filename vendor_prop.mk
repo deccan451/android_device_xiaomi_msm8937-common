@@ -182,6 +182,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
 
+# Qualcomm
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+ro.vendor.qti.va_aosp.support=1
+
+PRODUCT_ODM_PROPERTIES += \
+    ro.vendor.qti.va_odm.support=1
+
 # Perf
 PRODUCT_PROPERTY_OVVERIDES += \
    ro.vendor.extension_library=libqti-perfd-client.so \
