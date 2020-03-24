@@ -66,3 +66,6 @@
 # Vibration
 /sys/class/timed_output/vibrator/vmax_mv            u:object_r:sysfs_vibrator:s0
 /sys/class/timed_output/vibrator/vtg_level           u:object_r:sysfs_vibrator:s0
+
+# Dolby
+/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@1\.0-service                     u:object_r:hal_dms_default_exec:s0
