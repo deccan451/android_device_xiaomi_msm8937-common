@@ -12,3 +12,7 @@ allow qti_init_shell {
 
 # DT2W
 allow init sysfs_dt2w:file { rw_file_perms setattr };
+
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;
