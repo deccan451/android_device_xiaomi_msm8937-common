@@ -93,7 +93,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.egl.hw=0 \
+    debug.egl.hw=1 \
     debug.enable.sglscale=1 \
     debug.gralloc.enable_fb_ubwc=1 \
     debug.sf.enable_hwc_vds=1 \
@@ -111,7 +111,26 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sdm.debug.disable_skip_validate=1 \
     debug.sf.disable_backpressure=1 \
     debug.sf.enable_gl_backpressure=1 \
-    sdm.perf_hint_window=50
+    sdm.perf_hint_window=50 \
+    debug.composition.type=gpu \
+    debug.enabletr=true \
+    debug.overlayui.enable=1 \
+    debug.performance.tuning=1 \
+    hw3d.force=1 \
+    hwui.disable_vsync=true \
+    hwui.render_dirty_regions=false \
+    persist.sys.composition.type=gpu \
+    persist.sys.ui.hw=1 \
+    ro.config.enable.hw_accel=true \
+    ro.product.gpu.driver=1 \
+    ro.fb.mode=1 \
+    ro.vold.umsdirtyratio=60 \
+    ro.sf.compbypass.enable=0 \
+    video.accelerate.hw=1 \
+    com.qc.hardware=true \
+    debug.qc.hardware=true \
+    debug.qctwa.preservebuf=1 \
+    debug.qctwa.statusbar=1
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -165,19 +184,19 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Perf
 PRODUCT_PROPERTY_OVVERIDES += \
-ro.vendor.extension_library=libqti-perfd-client.so \
-ro.vendor.qti.sys.fw.bg_apps_limit=60
+   ro.vendor.extension_library=libqti-perfd-client.so \
+   ro.vendor.qti.sys.fw.bg_apps_limit=60
 
 # Perf Ux IOPrefetcher
 PRODUCT_PROPERTY_OVERRIDES += \
-vendor.enable_prefetch=1 \
-vendor.iop.enable_uxe=1 \
-vendor.iop.enable_prefetch_ofr=1 \
-vendor.perf.iop_v3.enable=1 \
-persist.vendor.qti.games.gt.prof=1 \
+   vendor.enable_prefetch=1 \
+   vendor.iop.enable_uxe=1 \
+   vendor.iop.enable_prefetch_ofr=1 \
+   vendor.perf.iop_v3.enable=1 \
+   persist.vendor.qti.games.gt.prof=1 \
 
 # Sim Selection Fix
-persist.vendor.radio.aosp_usr_pref_sel=true
+   persist.vendor.radio.aosp_usr_pref_sel=true
 
 # SurfaceFlinger sensor props
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -187,7 +206,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
-wifi.interface=wlan0
+   wifi.interface=wlan0
 
 #Spectrum
 spectrum.support=1
