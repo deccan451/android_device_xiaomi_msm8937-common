@@ -169,12 +169,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVVERIDES += \
    ro.vendor.extension_library=libqti-perfd-client.so \
    ro.vendor.qti.sys.fw.bg_apps_limit=60 \
+   ro.vendor.qti.am.reschedule_service=true \
    dalvik.vm.boot-dex2oat-threads=8 \
    ro.sys.fw.dex2oat_thread_count=8 \
    dalvik.vm.bg-dex2oat-threads=2 \
    dalvik.vm.dex2oat-threads=6 \
    ro.vendor.qti.core_ctl_min_cpu=2 \
-   ro.vendor.qti.core_ctl_max_cpu=4
+   ro.vendor.qti.core_ctl_max_cpu=4 \
+   ro.vendor.at_library=libqti-at.so \
+   ro.vendor.gt_library=libqti-gt.so
 
 # IOP and Workload Classifier props
 PRODUCT_PROPERTY_OVERRIDES += \
