@@ -373,40 +373,40 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so|5862ab34c0d040dba63eced727146dd233cf
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f4eef520bbf98e6e1ac8697ef7eef0109487dba1
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
 
-# Perf - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|ed731317514e1992ac919a49a1f98e14e7a60eff
-vendor/bin/msm_irqbalance|b5e55b4b0934b65b7dd5d2201f9a70f6f77a4e7c
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|48b5addbcbdee3efaf65ee824c262f2997864bd9
-vendor/lib/libperfgluelayer.so|3c58ba816cf4480357b1ed934d2b44f17d00449f
-vendor/lib/libqti-perfd-client.so|eb81a99bab35f29b7977bde878ea2a29e2abe18c
-vendor/lib/libqti-perfd.so|bc6f03e63c9172c256c4b87ffd045667168adb1c
-vendor/lib/libqti-util.so|da7cfbe08e99dfa77fb29f06878b5d676af40d09
-vendor/lib/libqti-utils.so|b910050eb3a0f75a3624fc9987f2e139198d7f3e
-vendor/lib/libperfconfig.so|a940ff08c5207ca4ba7e3c9f97c51b98da8bb0d0
-vendor/lib/vendor.qti.hardware.perf@1.0.so|14433f3baf7e760208f3e6ebbcb5583c5cfbf91c
-vendor/lib/vendor.qti.hardware.perf@2.0.so|67fbeed3fce2a6521f9c1d39b6cab1cd1550bd2a
-vendor/lib64/libadaptlaunch.so|c28f34fbd6614b1f15a8f4845fb631f5afe16c00
-vendor/lib64/liblearningmodule.so|b638d727bb29401b7c28355b1497a3e9fef6c151
-vendor/lib64/libmeters-ns.so|bce04b8dad64dc7e4ad6114bc8771bf5c6f90464
-vendor/lib64/libmeters.so|24bb1b67813790b63464f434f0dcc425a5064c52
-vendor/lib64/libperfgluelayer.so|ba4f771f239303a96b118cacdb38f6ce985b0e9b
-vendor/lib64/libqti-perfd-client.so|cfdfe3d443085feae4cf4af398d711722b904388
-vendor/lib64/libqti-perfd.so|7a5724fcb4a5a7a74d58e2641c051934b038905d
-vendor/lib64/libqti-util.so|4911109f327c4bf9d1d34acc14082f78e69b4ccb
-vendor/lib64/libqti-utils.so|c74e0e5c650ecb9a0bb8e6fd7d95fc1e521597f6
-vendor/lib64/libperfconfig.so|c2929d897e116a0f775213e5ddfb785b313d8fd5
-vendor/lib64/vendor.qti.hardware.perf@1.0.so|125a5c14b4e768ef7ce1d89abee9b2421f17b7ba
-vendor/lib64/vendor.qti.hardware.perf@2.0.so|d4f082dcf0fedec3376144f91bc163c3c863ebd4
+# Perf - from olive - 10-QKQ1.191014.001-V11.0.1.0.QCNCNXM
+vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|2112f2d6d3a6b256257d0e400ef86148f5dfb115
+vendor/bin/msm_irqbalance|13ed8694ff5afe07b6e984e5d4424cdcfaafa126
+vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
+vendor/lib/libperfgluelayer.so|24d2b65ec675e3ec3d5dfb653ac3d1cb68c42e42
+vendor/lib/libqti-perfd-client.so|d6c5307b1971a350d1ae597a289424fd9591448d
+vendor/lib/libqti-perfd.so|048bbe3c1e8d8abc9c98386a59ffdd4458fd51ab
+vendor/lib/libqti-util.so|1f406916a6ddfc38ec61b349240e70cf2cf19921
+vendor/lib/libqti-utils.so|d389ba745cb244eb2468c8ee64a768c95ab62514
+vendor/lib/vendor.qti.hardware.perf@1.0.so|76bf04fdfe30b859701245e8e3feddfafd7016e4
+vendor/lib/vendor.qti.hardware.perf@2.0.so|c32c1936440776a4e2210837dc1d91399c090b3a
+vendor/lib/libperfconfig.so|f62a85fca63718ba5d61975c91df97d4fdceeef5
+vendor/lib64/libadaptlaunch.so|0070efef14522ea50578a2d66349ac373df5c12e
+vendor/lib64/liblearningmodule.so|d92b3cb06c23d8c8d7a103778bfdc753c9cb9e78
+vendor/lib64/libmeters-ns.so|77931496fbc77ba04505b386e1f90742e92be58d
+vendor/lib64/libmeters.so|6bc8f4ebbea034a6a662768d11bab1f0054fb94e
+vendor/lib64/libperfgluelayer.so|e3ab6913ffb48dfec75ebb5efdc87d22aef2a6bb
+vendor/lib64/libqti-perfd-client.so|86e3d91309827c29bf56e6633fd511b21a7204b8
+vendor/lib64/libqti-perfd.so|7adc5aab38a55a153073d4c8939cc7fbdc071a57
+vendor/lib64/libqti-util.so|953aed526a2d1b933f1d2a2cf0ea251f78776ac2
+vendor/lib64/libqti-utils.so|a7ce6fcab7ef9e0941985528fc549934bffa487e
+vendor/lib64/vendor.qti.hardware.perf@1.0.so|d60b5a404cafe9259acee3406a26fbf21d4d0676
+vendor/lib64/vendor.qti.hardware.perf@2.0.so|9d66ec0350d3907923f81239a5409125d1060600
+vendor/lib64/libperfconfig.so|1938ba032bced084010aa53f34bd1bb5e3248907
 
-# Perf-IOP - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|c16cde136194fd07c75aaadb6be5a0dbd8b315a4
-vendor/lib/libqti-iopd-client.so|98c1aafb71fc5cf05197831deeb1456572d7cb77
-vendor/lib/vendor.qti.hardware.iop@1.0.so|f522603e1b741ff8dcf643e8fe9ce407316dfbe4
-vendor/lib/vendor.qti.hardware.iop@2.0.so|ddd07fb38fa22976e2dc9860fb52c5ce1f1a0bde
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|5bb2e93e988da810ff12c539996111632542b403
-vendor/lib64/libqti-iopd-client.so|c7296f02c126f8c7402eae0f79737908901afa36
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|3f738546cbdebf7d7a769568c4c5b43f3d8e2c54
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|f40ce3fe82f85dba57df0185cc42e491da585329
+# Perf-IOP - from olive - 10-QKQ1.191014.001-V11.0.1.0.QCNCNXM
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|66b6f5fea48c2c27ae489c31a457e99671e3b1c5
+vendor/lib/libqti-iopd-client.so|a36d5e78c79a842b16091f7cad6172e0cecb2e4c
+vendor/lib/vendor.qti.hardware.iop@1.0.so|01b2e5d6079e229963391e3eb7b38c8a64cd4bf7
+vendor/lib/vendor.qti.hardware.iop@2.0.so|c5643adaa05bea601a7d118c6fbc2ef85cba2cb2
+vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|75a8f66b37e16e9fa0de621fa9c49b19c21c7059
+vendor/lib64/libqti-iopd-client.so|4c19b98b500ac56b7a53a21ddffa50c519e41b2b
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|a0020360bceec31b2bcaceb29a87c82689c90758
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|63e860683c6b090d66e209f0d56bef9583584d75
 
 # Keystore - from LA.UM.8.6.r1-02600-89xx.0
 vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|265cd4d0246f5e2e80916dd1c96262be28306b31
@@ -563,17 +563,17 @@ vendor/lib64/libsensor_reg.so|74659858f5abcfa0d8c826af2e2e46addc9f5f87
 vendor/lib64/libsensor_user_cal.so|92de798c64f9e23ca1069a5a4bec5895fafa9a22
 vendor/lib64/sensors.ssc.so|3d6eed945ab3ec2d91517cd6e9941df17a290445
 
-# Thermal - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
-vendor/bin/hw/android.hardware.thermal@1.0-service|c025b2b3189b9499d8bdb06095bacc023a451d3b
-vendor/bin/thermal-engine|1adec8c5de1a095ed790879e5aabe1e249c816e3
+# Thermal - from olive - 10-QKQ1.191014.001-V11.0.1.0.QCNCNXM
+vendor/bin/hw/android.hardware.thermal@1.0-service|80324a563d7758e5360d5d8f26d91372383cfdec
+vendor/bin/thermal-engine|633b9cff05ba176a18101bdfc03ecacc98e1e0f0
 vendor/etc/init/android.hardware.thermal@1.0-service.rc|83a76be56b9b0843ff3f2c06186c63156a459acb
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so|b99eea4e53b260178243e68f69bd8e26acd41065
-vendor/lib/hw/thermal.msm8937.so|996bfafadffcc13b28ac3b862e56a809019364e5
--vendor/lib/libthermalclient.so|5366dedac700727f05ed1729bf00c855d0777de4
-vendor/lib64/hw/thermal.msm8937.so|d1ea7b039999b85169db0e0304690a5238d2a269
-vendor/lib64/hw/android.hardware.thermal@1.0-impl.so|84c5b49a453d9aadd8b2a3730634cfcc2bc3a324
--vendor/lib64/libthermalclient.so|fead3fb780b175ef478c7ab120639dea5b37a802
-vendor/lib64/libthermalioctl.so|dbb89b6990fed7373cbfcfeac9c90a5dd2bc2bdd
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so|98840ba9b56afb60081c398a85a418bc2f85f0f8
+-vendor/lib/libthermalclient.so|8837ba9f8f43d4cfbec00d8055fef4c9a7434931
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so|eb151cfef1290c0853911e259d62c5b39cd96a54
+-vendor/lib64/libthermalclient.so|148421212c4b2d3bcb37cb08f9542d3286f008c1
+vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
+vendor/lib/hw/thermal.msm8937.so|a62510462918f83ada999066251dec9a1e536ca7
+vendor/lib64/hw/thermal.msm8937.so|c4f523e6a066753eb8981541680d8e5abd291947
 
 # Time services - from daisy - QKQ1.191002.002 V11.0.2.0.QDLMIXM
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|27f9b81621c446baa8c37581d9bfbca2fd67b496
