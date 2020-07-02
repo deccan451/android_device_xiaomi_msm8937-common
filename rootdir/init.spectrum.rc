@@ -21,8 +21,6 @@ on property:sys.boot_completed=1
    chmod 0664 /sys/devices/platform/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/max_clock_mhz
    chown system system /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost
    chmod 0664 /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost
-   chown system system /sys/module/adreno_idler/parameters/adreno_idler_active
-   chmod 0664 /sys/module/adreno_idler/parameters/adreno_idler_active
    chown system system /sys/block/mmcblk0/queue/scheduler
    chmod 0664 /sys/block/mmcblk0/queue/scheduler
    chown system system /sys/block/mmcblk1/queue/scheduler
@@ -51,12 +49,6 @@ on property:persist.spectrum.profile=0
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor schedutil
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq 1094400
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 768000
-
-		#adreno idler
-		write /sys/module/adreno_idler/parameters/adreno_idler_active 0
-
-		#adreno boost
-		write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 1
 
 		#GPU
 		write /sys/devices/platform/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/max_clock_mhz 450
@@ -93,12 +85,6 @@ on property:persist.spectrum.profile=1
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq 1094400
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 960000
 
-		#adreno idler
-		write /sys/module/adreno_idler/parameters/adreno_idler_active 0
-
-		#adreno boost
-		write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 2
-
 		#GPU
 		write /sys/devices/platform/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/max_clock_mhz 475
 
@@ -133,12 +119,6 @@ on property:persist.spectrum.profile=2
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor pixutil
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq 1094400
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 768000
-
-		#adreno idler
-		write /sys/module/adreno_idler/parameters/adreno_idler_active 1
-
-		#adreno boost
-		write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 0
 
 		#GPU
 		write /sys/devices/platform/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/max_clock_mhz 450
@@ -175,13 +155,7 @@ on property:persist.spectrum.profile=3
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq 1094400
 		write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 960000
 
-		#adreno idler
-		write /sys/module/adreno_idler/parameters/adreno_idler_active 0
-
-		#adreno boost
-		write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 3
-
-		#GPU
+                # GPU
 		write /sys/devices/platform/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/max_clock_mhz 475
 
 		#IO Scheduler
