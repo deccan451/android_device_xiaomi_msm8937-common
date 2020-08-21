@@ -65,7 +65,7 @@ on property:persist.spectrum.profile=0
 		write /sys/module/lowmemorykiller/parameters/minfree 18432,23040,27648,32256,55296,80640
 		write /sys/module/lowmemorykiller/parameters/cost 32
 		write /sys/module/lowmemorykiller/parameters/vmpressure_file_min 81250
-		write /proc/sys/vm/swappiness 60
+		write /proc/sys/vm/swappiness 100
 		write /proc/sys/vm/vfs_cache_pressure 100
 		write /proc/sys/vm/min_free_kbytes 6764
 		write /proc/sys/vm/dirty_ratio 20
