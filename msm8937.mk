@@ -380,6 +380,7 @@ PRODUCT_PACKAGES += \
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
+TARGET_EXCLUDE_QCOM_VENDOR_SEPOLICY := true
 
 # Sensors
 PRODUCT_PACKAGES += \
