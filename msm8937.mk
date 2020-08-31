@@ -182,6 +182,13 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/configs/gps/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     $(VENDOR_PATH)/configs/gps/gps_debug.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps_debug.conf
 
+# Hals
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom/msm8996/audio \
+    hardware/qcom/msm8996/display \
+    hardware/qcom/msm8996/media \
+    hardware/qcom/gps
+
 # Healthd
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
