@@ -490,3 +490,6 @@ on property:init.svc.servicemanager=restarting
 
 on property:dev.bootcomplete=1  
     restart ril-daemon
+
+    # Start RIL daemon
+    start ril-daemon    
