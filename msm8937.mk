@@ -183,9 +183,9 @@ PRODUCT_COPY_FILES += \
 
 # Hals
 PRODUCT_SOONG_NAMESPACES += \
-    hardware/qcom/msm8996/audio \
-    hardware/qcom/msm8996/display \
-    hardware/qcom/msm8996/media \
+    hardware/qcom/audio \
+    hardware/qcom/display \
+    hardware/qcom/media \
     hardware/qcom/gps
 
 # Healthd
